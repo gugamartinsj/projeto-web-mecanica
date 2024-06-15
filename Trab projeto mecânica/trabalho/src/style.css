@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Public+Sans:ital,wght@0,300;1,300&display=swap');
+
+body{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cabecalho .logo .imagem{
+    width: 350px;
+}
+
+.cabecalho{
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.cabecalho .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacao{
+    position: relative;
+}
+
+.navegacao .menu{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cabecalho .menu{
+    display: flex;
+}
+
+.cabecalho .navegacao .menu .item{
+    margin: 10px;
+}
+
+.cabecalho .navegacao .menu .item a{
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho .navegacao .menu .item a:hover{
+    background-color: #1ED760;
+    color: white;
+}
+
+.conteudo-principal .apresentacao .conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 100px 100px;
+    background-color: rgb(34, 31, 31);
+    max-width: 100%;
+    height: 100%;
+    
+}
+
+.conteudo-principal .apresentacao .conteudo .informacoes{
+    max-width: 80%;
+}
+
+.quem-somos .informacoes {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    padding: 200px 200px;
+    flex-direction: column;
+    background-image: url('./images/Background\ 01.png');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(85%);
+}
+
+.quem-somos .informacoes .titulo{
+    text-transform: uppercase;
+    color: #1ED760;
+    display: flex;
+    justify-content: center;
+}
+
+.quem-somos .informacoes .texto{
+    color: white;
+    filter: brightness(95%);
+}
+
+.conteudo-principal .apresentacao .conteudo .informacoes .texto{
+    color: white;
+    filter: brightness(86%);
+}
+.conteudo-principal .apresentacao .conteudo .informacoes .titulo{
+    color: rgb(53, 242, 15);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-principal .imagens{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.conteudo-principal .imagens img{
+    width: 100%;
+    height: auto;
+    
+ 
+}
+
+.conteudo-principal .imagens .faixa{
+    height: 10px;
+}
+
+.localizacao .faixa{
+    height: 10px;
+}
+
+.quem-somos .faixa{
+    height: 10px;
+}
+
+.conteudo-principal .imagens .logo{
+    width: 250px;
+}
+
+.localizacao{
+    background-image: url('./images/Background\ 02.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+.localizacao .conteudo .informacoes .cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.localizacao .conteudo .informacoes .cabecalho .logo{
+    width: 200px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.localizacao .conteudo .informacoes .cabecalho .icone{
+    width: 100px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.localizacao .conteudo .informacoes .cabecalho img {
+    margin: 0 200px; 
+    height: auto;
+}
+
+.localizacao .conteudo .informacoes .titulo {
+    justify-content: center;
+    text-align: center;
+}
+
+.localizacao .conteudo .informacoes .texto {
+    justify-content: center;
+    text-align: center;
+}
+
+.localizacao .conteudo .informacoes .mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    filter: invert(90%);
+}
+
+.localizacao .conteudo .informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape {
+    background-color: rgb(34, 31, 31);
+}
+
+.rodape .navegacao .menu-rodape .item a{
+    color: #1ED760;
+
+}
+
+.rodape .navegacao .titulo {
+    color: #1ED760;
+    margin-left: 40px;
+
+}
+.rodape .navegacao .logo{
+    display: flex;
+    width: 700px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.rodape .navegacao .menu-rodape {
+    text-align: right;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape .navegacao .menu-rodape .item {
+    padding: 10px;
+}
+
+.rodape .navegacao {
+    display: flex;
+    flex-direction: column;
+}
